@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+  <h1>Outras formatações</h1>
+  <h2>Código-fonte/ Pré formatado</h2>
+  <p>o comando <code>getElementsById('foto')</code>
+  </p> 
+  <!--Fonte monoespaçada para ler o s códigos melhor-->
+  <pre>
+      <code>
+var n = Number(num.value)
+var c = 1
+tab.innerHTML = ''
+while(c <= 10) {
+    var item = document.createElement('option')
+    item.text = `${n} X ${c} = ${n*c}`
+    tab.appendChild(item)
+    c++
+      </code>
+  </pre>
+  <!--Criando código "formatado" com indentação (obs: shift tab)-->
+  <h2>Citações</h2>
+  <p>Como diria o pai de um amigo: <q>o computador é um burro muito rapído.</q></p>
+  <!--Use citação com a tag <q>-->
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Nobble, no seu livro html para leigos:</p>
+    <blockquote cite="google.com">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nemo fugiat? Dignissimos, sed amet commodi porro consectetur cum ad cumque libero quae itaque corrupti fugit dolores quia quidem sequi praesentium.
+    </blockquote>
+    <h2>Abreviação</h2>
+    <p>Estou estudando <abbr title="HyperTextMarkupLanguage">html</abbr></p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis tempora praesentium, nemo deserunt quis repellendus eveniet ducimus iste fugit neque fuga minima nihil! Enim dolorem animi earum velit officia delectus.</bdo></p>
+</html>
