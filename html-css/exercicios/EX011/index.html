@@ -15,5 +15,19 @@
         <img src="imagens/foto-g.png" alt="imagen flexivel">
         <!--Crie sites fexliveis para não ser afetado pelo bounce rate-->
     </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+     <!-- <audio src="media/Chillhop Music.mp4" controls></audio> 
+    esse formato não traz uma com todos os navegadores
+        MP3 OGG  WAV \/
+    -->
+    <audio preload="metadata" controls >
+        <source src="media/Chillhop Music.mp4" type="audio/mpeg">
+        <source src="media/Chillhop Music.wav" type="audio/wav">
+        <source src="media/Chillhop Music.ogg" type="audio/ogg">
+            <!-- aumentando a compatibilidade com diferentes navegadores.-->
+            <p>Se essa mensagen apareceu para você, infelizmente seu navegador não consegue ler esse arquivo <a href="media/Chillhop Music.mp4">clique aqui</a> para baixar o arquivo.</p>
+    </audio>
+    <p><a href="media/Chillhop Music.mp4">clique aqui</a> para baixar o arquivo.</p>
 </body>
 </html>
