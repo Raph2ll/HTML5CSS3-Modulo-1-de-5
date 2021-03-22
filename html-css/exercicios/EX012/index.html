@@ -7,9 +7,9 @@
     <title>Videos com HTML5 </title>
 </head>
 <body>
-    <h1>Inserindo videos hospedados localmente</h1>
+    <h1>Inserindo vídeos hospedados localmente</h1>
     <p>Este video está hospedado no meu próprio servidor</p>
-    <video width="500px" poster="imagens/oceano.png" controls >
+    <video width="560" poster="imagens/oceano.png" controls loop allow="autoplay;fullscreen; picture-in-picture" >
         <source src="midia/meuvideo.mp4" type="video/mp4">
         <source src="midia/Meuvideo-1.m4v" type="video/mp4">
         <source src="midia/Meuvideo-1.webm" type="video/webm">
@@ -17,5 +17,9 @@
         <p>Seu navegador não tem compatibilidade com a reprodução desse vídeo</p>
         <!-- Preze a ordem dos arquivos do menor pro maior.-->
     </video>
+    <h1>Inserindo vídeos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eF9Qoc6p_4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo vídeos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/197093965" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
